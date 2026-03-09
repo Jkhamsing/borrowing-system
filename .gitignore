@@ -28,3 +28,8 @@ user_history.php
 
 # Empty Files
 create_user.php
+
+# ป้องกันโฟลเดอร์ Database หลุดขึ้น Git
+db_data/
+.vscode/
+.DS_Store

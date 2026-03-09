@@ -1,8 +1,8 @@
 <?php
-$host = 'localhost'; 
-$dbname = 'equipment_borrowing';
-$username = 'root';
-$password = '';
+$host = 'db';
+$dbname = 'equipment_borrow_db';
+$username = 'dev_user';
+$password = 'dev_password';
 
 try {
     $pdo = new PDO("mysql:host=$host;dbname=$dbname", $username, $password);
